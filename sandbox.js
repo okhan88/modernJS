@@ -118,9 +118,103 @@ const likes = 30;
 
 // template string way- this is faster and easier than doing concatenation way
 
-let result = `The blog called ${title} by ${author} has ${likes} likes`;
-console.log(result)
+// let result = `The blog called ${title} by ${author} has ${likes} likes`;
+// console.log(result)
 
 //creating html temples
 
-50.35
+// let html = `
+//     <h2> ${title}</h2>
+//     <p> ${author} </>
+//     <span> this blog has ${likes} likes </span>
+
+// `;
+
+// console.log(html)
+
+
+// ----------------------------------------------------------------------------------------------------------------------------------------------
+
+// arrays
+
+// let ninjas = ['shaun', 'ryu', 'chun-li'];
+// console.log(ninjas) 
+
+// if you only want one person in an array, put brackets after ninjas and their position within the array
+
+// console.log(ninjas[1]) this will give me ryu
+
+// if you want to override position[1], you can do the following
+
+// ninjas[1] = 'ken';
+// console.log(ninjas[1]) you will get ken as the output
+
+// let ages = [20, 25, 30, 35]
+// console.log (ages[2])
+
+// let random = ['shaun', 'crystal', 30, 20];
+// console.log(random) you will get the array
+
+// console.log(ninjas.length) you get 3 since there are three names in the original array
+
+/* array methods */
+
+// let result = ninjas.join(',') // this will take an array and joins all the elemnets inside them into a single string with a comma
+
+
+// let result = ninjas.indexOf('chun-li');
+
+// let result = ninjas.concat (['ken', 'crystal'])   // concat will join two arrays together
+
+// let result = ninjas.push('ken') // pushing a new item into an array, this alters the original value
+// console.log (result) // this will return the length of the new array
+// console.log (ninjas) // this will return all the orginal names in the array along with ken
+
+
+// result = ninjas.pop() // pop takes off the end value
+// console.log (ninjas) // this will give us the original array without ken
+
+// console.log (result) // this will give us "ken" since that is what we popped off
+
+
+// ----------------------------------------------------------------------------------------------------------------------------------------------
+
+// null (intentional lack of value) and undefined (nonintentional lack of value)
+
+// let age;
+// console.log(age, age + 3, `the age is ${age}`) // three values are outputed. The first value is undefined because we have not given age a value. The second value is NaN. the third value says "the age is undefined"
+
+
+// let age = null
+// console.log(age, age + 3, `the age is ${age}`) // null is the first output. we get 3 as the second output because null takes the value of 0 in a formula. the third ouput is "the age is null"
+
+
+
+// ----------------------------------------------------------------------------------------------------------------------------------------------
+
+
+// Booleans- represent true and false
+
+// console.log(true, false) // not putting quotes
+
+console.log(true, false, 'true', 'false') // the new 'true' and 'false' are strings
+
+
+// methods can return booleans
+// let email = "luigi@netninja.co.uk"
+// let result = email.includes('@') // includes checks if a certain character is in a string. The result will be a boolean response
+
+// console.log (result) // output is true because there is an @ symbol in the email
+
+// let result = email.includes('!')
+// console.log (result) // output is 'false' because there is no ! in the email variable
+
+
+let email = "luigi@netninja.co.uk"
+let names = ['mario', 'luigi', 'toad']
+
+let result = names.includes('luigi')
+console.log (result)
+
+
+1 hour 8 Min 
