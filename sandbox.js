@@ -106,9 +106,9 @@ console.log(index)
 // ----------------------------------------------------------------------------------------------------------------------------------------------
 
 // template strings- lets us inject variables into strings
-const title = 'Best reads of 2019';
-const author = 'Mario';
-const likes = 30;
+// const title = 'Best reads of 2019';
+// const author = 'Mario';
+// const likes = 30;
 
 
 // concatenation way
@@ -197,7 +197,7 @@ const likes = 30;
 
 // console.log(true, false) // not putting quotes
 
-console.log(true, false, 'true', 'false') // the new 'true' and 'false' are strings
+// console.log(true, false, 'true', 'false') // the new 'true' and 'false' are strings
 
 
 // methods can return booleans
@@ -210,11 +210,78 @@ console.log(true, false, 'true', 'false') // the new 'true' and 'false' are stri
 // console.log (result) // output is 'false' because there is no ! in the email variable
 
 
-let email = "luigi@netninja.co.uk"
-let names = ['mario', 'luigi', 'toad']
+// let email = "luigi@netninja.co.uk"
+// let names = ['mario', 'luigi', 'toad']
 
-let result = names.includes('luigi')
-console.log (result)
+// let result = names.includes('luigi')
+// console.log (result)
 
 
-1 hour 8 Min 
+// comparison operators- used to compare two things together and they will return boolean true and false
+
+// let age = 25;
+
+// console.log(age == 25) // double equals checks if the variable and equation are the same, a values type is not used for comparison
+// console.log(age == 30) 
+// console.log (age != 30) // this symbol is a negation sign, gives a t/f output
+// console.log (age > 20)
+// console.log (age < 20)
+// console.log (age <= 25)
+// console.log (age >= 25)
+
+// let name = 'shaun'
+
+// console.log (name == 'shaun')
+// console.log (name == 'Shaun') // will give false
+// console.log (name > 'crystal') // will give true output because s comes later than c in alphabet, and so later letters have greater value
+// console.log (name > 'Shaun') // lower case letter is greater than uppercase letter, this gives true output
+
+
+
+// ----------------------------------------------------------------------------------------------------------------------------------------------
+
+// let age = 25
+// loose comparison (different types can still be equal)
+
+// console.log (age == 25) // this is loose comparison
+// console.log (age == '25') // JS is saying this is equal (by outputing true) even though they are different types
+// console.log (age != 25)
+// console.log (age != '25')
+
+
+// strict comparison (different types can not be equal), use three equal signs
+
+// console.log (age === 25) // checking for same value and type
+// console.log (age === '25') // this is false because we are comparing a number with a string
+// console.log (age !== 25)
+// console.log (age !== '25')
+
+
+
+
+// ----------------------------------------------------------------------------------------------------------------------------------------------
+
+//type conversion- turnign one data type into another data type
+
+// let score = '100'
+
+// console.log (score + 1) // this results in concatenation where 1 is added to the end, resulting in 1001
+
+// score = Number(score) // converting the string into a number
+// console.log (score + 1) // this gives the desired result of 101 
+
+// console.log (typeof score) // you can check what type is the variable
+
+// let result = Number ('hello')
+// console.log (result) // result is NaN, as you cant convert words to a number
+
+// let result = String (50)
+// console.log (result, typeof result) // this will tell us the number and the type it is (string or number)
+
+
+// let result = Boolean (100);
+// console.log(result, typeof result) // some values are true or valse in Boolean. zero is a false number but positive or negative numbers are true
+
+
+// let result = Boolean ('0')
+// console.log(result, typeof result) // strings of any value are true
