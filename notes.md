@@ -20,3 +20,27 @@ Javascript data types
 
 
 strings store letters, numbers, characters, sentences, etc
+
+-----------------------------------------------------------------
+
+TUTORIAL 3:
+
+Control Flow
+
+a loop is used for cycling through data
+
+{} this is a block to keep code in
+
+for (let i = 0; i < 5; i++) {}
+    (let i = 0) is like a counter. counts how many times we cycle through the loop
+    (i < 5) is a condition
+    (i++) is the final expression
+
+
+each iteration is one cycle through the data
+
+for while loops
+    set up is different than while loops
+
+
+15 min
