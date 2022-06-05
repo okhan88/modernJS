@@ -43,4 +43,29 @@ for while loops
     set up is different than while loops
 
 
-15 min
+do while loops
+    extension of while loop
+    you can run a function with a "do while loop" regardless if the condition is true or false 
+
+if statements
+    we check a condition and initiate code block if condition is true
+    function only runs once because there is no loop
+
+
+else if statements
+
+logical operators
+
+    OR ||
+    AND &&
+
+logical NOT (!)
+
+break and continue
+
+switch statements
+    use strict equality to check
+
+variables and black scope
+    let and const can both be used
+    var is not limited by block scope
