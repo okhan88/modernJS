@@ -69,3 +69,15 @@ switch statements
 variables and black scope
     let and const can both be used
     var is not limited by block scope
+
+
+-----------------------------------------------------------------
+
+
+TUTORIAL 4: Functions and Methods
+
+functions are builing blocks in many programming languages
+    allow us to define code
+    create little blocks of code so they can be reusable
+
+function declaration vs function expression
